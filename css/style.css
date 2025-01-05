@@ -20,7 +20,7 @@ select {
 .container {
   background: white;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 60px 200px;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
