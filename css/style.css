@@ -1,10 +1,15 @@
 body {
-  background-color: #f9f7fe;
   font-family: sans-serif;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/154/212/original/199504.jpg?1736255829");
+  background-repeat:no-repeat;
+  background-size: cover;
 }
+
+
 h1 {
   text-align: center;
   font-size: 36px;
+  color: #112644;
 }
 h2 {
   margin: 0 0 5px;
@@ -15,30 +20,29 @@ select {
   width: 100%;
   padding: 10px;
   font-size: 18px;
-  border-radius: 4px;
+  border-radius: 15px;
+  border: 1px solid #bbb7b4;
+  opacity: 0.8;
+  margin-bottom: 20px;
 }
 .container {
-  background: white;
   max-width: 600px;
-  margin: 60px 200px;
+  margin: 60px auto;
   padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
-  border-radius: 10px;
+  background-color: #f5f5f5df;
+  border-radius: 25px;
+  opacity: 0.8;
 }
-
 .city {
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
-  padding: 30px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
-}
-.city:last-child {
-  border: none;
+  background-color: #f0d78c73;
+  padding: 30px 30px;
+  border-radius: 20px;
 }
 .date {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .time {
   font-size: 36px;
@@ -52,6 +56,58 @@ select {
 
 footer {
   text-align: center;
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+  border-top: 1px solid #2e2e2e;
+  margin: 0px auto;
+  width: 500px;
+  padding-top: 15px;
+}
+a {
+  color: #152124;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#los-angeles {
+  background-color: #dcb5ffb1;
+}
+#Madrid {
+  background-color: #f0d9da;
+}
+#Auckland {
+  background-color: #a5bdfd;
+}
+#Tokyo {
+  background-color:#97cba994;
+}
+#Tokyo:hover {
+  transform: scale(1.08);
+  background-color: #97cba9;
+}
+#los-angeles:hover {
+   transform: scale(1.08);
+   background-color: #dcb5ff;
+}
+#Madrid:hover {
+  transform: scale(1.08);
+  background-color: #f0d9da;
+}
+#Auckland:hover {
+  transform: scale(1.08);
+  background-color: #a5bdfd;
+}
+.city:hover {
+  transform: scale(1.08);
+  background-color: #f0d78ccb;
+}
+.go {
+  background-color:#80a3a237;
+  color: black;
+  padding: 12px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
 }
