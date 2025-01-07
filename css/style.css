@@ -4,8 +4,6 @@ body {
   background-repeat:no-repeat;
   background-size: cover;
 }
-
-
 h1 {
   text-align: center;
   font-size: 36px;
@@ -37,7 +35,7 @@ select {
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
-  background-color: #f0d78c73;
+  background-color: #fffbe3d4;
   padding: 30px 30px;
   border-radius: 20px;
 }
@@ -52,22 +50,6 @@ select {
   font-size: 24px;
   line-height: 48px;
   vertical-align: middle;
-}
-
-footer {
-  text-align: center;
-  font-size: 15px;
-  border-top: 1px solid #2e2e2e;
-  margin: 0px auto;
-  width: 500px;
-  padding-top: 15px;
-}
-a {
-  color: #152124;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
 }
 #los-angeles {
   background-color: #dcb5ffb1;
@@ -99,7 +81,7 @@ a:hover {
 }
 .city:hover {
   transform: scale(1.08);
-  background-color: #f0d78ccb;
+  background-color: #fffbe3;
 }
 .go {
   background-color:#80a3a237;
@@ -111,3 +93,16 @@ a:hover {
   cursor: pointer;
   border-radius: 20px;
 }
+a {
+  color: #1b3e6f;
+  font-size: 16px;
+}
+footer {
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid #2e2e2e;
+  margin: 0px auto;
+  width: 550px;
+  padding-top: 15px;
+}
+
